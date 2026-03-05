@@ -33,7 +33,7 @@ public class IndexDocumentCommandHandler : IRequestHandler<IndexDocumentCommand,
             
             var chunkTexts = _chunkingService.Chunk(request.Content);
             
-            var embeddings = await _embeddingService.GenerateEmbeddingAsync(chunkTexts, cancellationToken);
+            var embeddings = await _embeddingService.GenerateEmbeddingsAsync(chunkTexts, cancellationToken);
 
             var chunks = chunkTexts.Select((text, index) =>
             {
