@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/RAG.API/RAG.API.csproj" />
+    <Project Path="src/RAG.Application/RAG.Application.csproj" />
+    <Project Path="src/RAG.Domain/RAG.Domain.csproj" />
+    <Project Path="src/RAG.Infrastructure/RAG.Infrastructure.csproj" />
+  </Folder>
+</Solution>
