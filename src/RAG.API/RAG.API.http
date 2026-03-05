@@ -1,6 +1,0 @@
-@RAG.API_HostAddress = http://localhost:5293
-
-GET {{RAG.API_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
