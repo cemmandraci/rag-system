@@ -210,14 +210,3 @@ GET /api/chat/conversations/{conversationId}
 | Qdrant gRPC | 6334 | Used internally by the API |
 
 Visit `http://localhost:6333/dashboard` to explore stored vectors visually.
-
-## Comparison with Previous Projects
-
-| | Project 1 — Text Analyzer | Project 2 — Vector Search | Project 3 — RAG System |
-|---|---|---|---|
-| Purpose | Text analysis | Semantic search | Question answering |
-| LLM Usage | Sentiment analysis | None | Answer generation |
-| VectorDB | None | ✅ Qdrant | ✅ Qdrant |
-| Conversation | None | None | ✅ Multi-turn |
-| Output | Analysis result | Chunk list | Natural language answer |
-| Hallucination control | N/A | N/A | ✅ Context-grounded |
