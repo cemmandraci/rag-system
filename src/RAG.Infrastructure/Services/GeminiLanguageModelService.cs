@@ -12,7 +12,7 @@ public class GeminiLanguageModelService : ILanguageModelService
     private readonly IHttpClientFactory _httpClientFactory;
     private readonly string _apiKey;
     private readonly JsonSerializerOptions _jsonOptions;
-    private const string ChatModel = "gemini-2.0-flash";
+    private const string ChatModel = "gemini-2.5-flash";
 
     public GeminiLanguageModelService(IHttpClientFactory httpClientFactory, IConfiguration configuration)
     {
